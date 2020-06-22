@@ -1,0 +1,174 @@
+*{
+	margin: 0;
+	padding: 0;
+	margin-top: 30px;
+
+}
+.page-wrapper{
+	max-width: 1200px;
+	margin: auto;
+	background-color: #15d0dc;
+	
+}
+
+	
+
+
+.main-header{
+	background-color: #008080;
+	height: 120px;
+
+}
+.header{
+	font-size: 25px;
+	color: #fff;
+	padding-top: 8px;
+	text-align: center;
+	font-family: sans-serif;
+	overflow: hidden;
+	letter-spacing: .3px;
+
+
+}
+.container{
+	width: 85%;
+	margin: auto;
+	
+}
+.section-1{
+	background-image: url(../images/banner-image-dogs.jpg);
+	height: 450px;
+	background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	margin: 40px 0 10px;
+}
+
+
+.section-2{
+	display: flex;
+	background-color: blue;
+	/*justify-content: space-between;*/
+	height: 300px;
+
+}
+.part-1{
+	width: 32%;
+	background-color: #fff;
+	margin:1.66% 1%;
+	text-align: center;
+	padding-top: 10px;
+	overflow: hidden;
+	color: rgba(55,44,44,1);
+}
+.part-2{
+	width: 32%;
+	background-color: #fff;
+	margin:1.66% 1%;
+	text-align: center;
+	padding-top: 10px;
+	overflow: hidden;
+	color: #d3d3d3;
+
+
+}
+.part-1 h1{
+	color: blue;
+	font-size: 2em;
+	
+	text-transform: uppercase;
+	letter-spacing: .3em;
+
+}
+.part-2 h1{
+	color: blue;
+	font-size: 2em;
+	
+	text-transform: uppercase;
+
+}
+
+
+p{
+	font-size: 1.2em;
+}
+.part-3{
+	width: 32%;
+	background-color: #fff;
+	margin:1.66% 1%;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-image: url(../images/image2-dog.jpg);
+
+
+}
+.section-3{
+	display: flex;
+	
+	justify-content: space-between;
+}
+
+.images-1{
+	background-image: url(../images/image3-dog.jpg);
+	width: 50%; 
+	height: 600px;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	margin: 15px  15px 80px 0;
+	border: 20px solid red;
+
+}
+.images-2{
+	background-image: url(../images/showcade.jpg);
+	width: 50%; 
+	height: 600px;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	margin: 15px 0 80px 15px;
+	border: 20px solid red;
+
+
+
+}
+.main-footer{
+	background-color: #008080;
+	height: 120px;
+
+}
+.footer{
+	font-size: 25px;
+	color: #fff;
+	padding-top: 8px;
+	text-align: center;
+	font-family: sans-serif;
+}
+
+/*@media(max-width: 600px){
+	.footer{
+		width: 100%;
+		float: none;
+	}
+	.images-1{
+		width: 100%;
+		float: none;
+	}
+	.images-2{
+		width: 100%;
+		float: none;
+	}
+	.part-1{
+		width: 100%;
+		float: none;
+	}
+	.part-2{
+		width: 100%;
+		float: none;
+	}
+	.part-3{
+		width: 100%;
+		float: none;
+	}
+}*/
